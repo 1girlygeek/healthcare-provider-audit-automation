@@ -1,0 +1,8 @@
+provider_id,name,state,status
+P001,Demo Clinic A,al,active
+P002,Demo Clinic B,GA,ACTIVE
+P002,Demo Clinic C,GA,ACTIVE
+P003,,TX,ACTIVE
+P004,Demo Clinic D,OH,UNKNOWN
+P005,Demo Clinic E,ZZ,ACTIVE
+P006,Demo Clinic F,TX,INACTIVE
