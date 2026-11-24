@@ -34,7 +34,7 @@ def run():
         with (out/name).open('w',newline='') as f:
             w=csv.DictWriter(f,fieldnames=fields); w.writeheader(); w.writerows(records)
     logging.info('Processed %d records; %d exceptions; %d proposed corrections',len(rows),len(exceptions),len(updates))
-    print(f'Processed {len(rows)} records; {len(exceptions} exceptions; {len(updates)} proposed corrections')
+    print(f'Processed {len(rows)} records; {len(exceptions)} exceptions; {len(updates)} proposed corrections')
     return exceptions, updates
 
 if __name__ == '__main__':
